@@ -15,3 +15,7 @@ spl_autoload_register(function($class){
 	elseif(file_exists(ROOT . DS . 'app' . DS . "models" . DS . $class . '.php'))
 		require_once ROOT . DS . 'app' . DS . "models" . DS . $class . '.php';
 });
+
+/**
+* route the request
+*/
