@@ -19,3 +19,5 @@ spl_autoload_register(function($class){
 /**
 * route the request
 */
+
+Router::route($url);
