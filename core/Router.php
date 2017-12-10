@@ -9,5 +9,7 @@ class Router
 		$controller_name = $controller;
 		array_shift($url);
 		dieDump($url);
+
+		// action
 	}
 }
