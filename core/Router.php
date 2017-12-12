@@ -14,6 +14,8 @@ class Router
 		$action_name = $action;
 		array_shift($url);
 		
+
+		// params
 		echo $controller . "<br>";
 		echo $action . "<br>";
 	}
