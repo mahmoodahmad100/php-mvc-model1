@@ -1,3 +1,3 @@
 # php-mvc-model1
-* I will start developing the next week.
+* developing is in progress
 * this is going to be php repo based on MVC design pattern. 
