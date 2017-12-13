@@ -10,7 +10,7 @@ class Router
 		array_shift($url);
 
 		// action
-		$action = (isset($url[0]) && $url[0] != '') ? $url[0]."Action" : "indexAction" ;
+		$action = (isset($url[0]) && $url[0] != '') ? $url[0]."Action" : DEFAULT_ACTION;
 		$action_name = $action;
 		array_shift($url);
 		
