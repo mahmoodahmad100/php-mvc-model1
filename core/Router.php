@@ -14,9 +14,18 @@ class Router
 		$action_name = $action;
 		array_shift($url);
 		
-
 		// params
-		echo $controller . "<br>";
-		echo $action . "<br>";
+		$queryParams = $url;
+		$dispatch    = new $controller($controller_name, $action);
+		
+		if(method_exists($controller, $action))
+		{
+			
+			call_user_func_array([$dispatch, $action],$queryParams);
+		}
+		else
+			die('no action with that name');
+		
+
 	}
 }
