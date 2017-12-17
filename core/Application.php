@@ -26,7 +26,9 @@ class Application
 
 	private function _unregister_globals()
 	{
-
+		if(ini_get('register_globals')){
+			// logic & iteration
+		}
 	}
 }
 
