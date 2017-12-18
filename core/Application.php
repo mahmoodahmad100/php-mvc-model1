@@ -27,7 +27,7 @@ class Application
 	private function _unregister_globals()
 	{
 		if(ini_get('register_globals')){
-			// logic & iteration
+			$globalsArr = ['_SESSION', '_COOKIE', '_POST', '_GET', '_REQUEST', '_SERVER', '_FILES', '_ENV'];
 		}
 	}
 }
