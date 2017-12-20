@@ -9,5 +9,6 @@ class Controller
 	{
 		$this->_controller = $controller;
 		$this->_action     = $action;
+		$this->view = new View();
 	}
 }
