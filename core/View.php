@@ -22,4 +22,9 @@ class View
 		else
 			die('the view ' . $viewName. ' does not found');
 	}
+
+	public function content($type)
+	{
+		
+	}
 }
