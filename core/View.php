@@ -11,6 +11,7 @@ class View
 
 	public function render($viewName)
 	{
-		
+		$viewArr    = explode('/', $viewName);
+		$viewString = implode(DS, $viewArr);
 	}
 }
