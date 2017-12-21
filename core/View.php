@@ -13,5 +13,10 @@ class View
 	{
 		$viewArr    = explode('/', $viewName);
 		$viewString = implode(DS, $viewArr);
+
+		if(file_exists(ROOT . DS . 'app' . DS . 'views' . DS . $viewString . '.php'))
+		{
+			include ROOT . DS . 'app' . DS . 'views' . DS . $viewString . '.php';
+		}
 	}
 }
