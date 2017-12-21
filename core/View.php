@@ -25,6 +25,6 @@ class View
 
 	public function content($type)
 	{
-		
+		// the type of the content whether it's head , body ... etc
 	}
 }
