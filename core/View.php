@@ -25,6 +25,11 @@ class View
 
 	public function content($type)
 	{
-		// the type of the content whether it's head , body ... etc
+		if($type == 'head')
+			return $this->_head;
+		elseif($type == 'body')
+			return $this->_body;
+		else
+			return false;
 	}
 }
