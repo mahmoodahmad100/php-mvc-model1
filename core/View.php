@@ -35,7 +35,8 @@ class View
 
 	public function start($type)
 	{
-
+		$this->_outBuffer = $type;
+		ob_start();
 	}
 
 	public function end()
