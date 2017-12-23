@@ -32,4 +32,29 @@ class View
 		else
 			return false;
 	}
+
+	public function start($type)
+	{
+
+	}
+
+	public function end()
+	{
+
+	}
+
+	public function siteTitle()
+	{
+		
+	}
+
+	public function setSiteTitle($title)
+	{
+
+	}
+
+	public function setLayout($path)
+	{
+
+	}
 }
