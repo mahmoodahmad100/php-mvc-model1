@@ -45,16 +45,16 @@ class View
 
 	public function siteTitle()
 	{
-
+		return $this->_siteTitle;
 	}
 
 	public function setSiteTitle($title)
 	{
-
+		$this->_siteTitle = $title;
 	}
 
 	public function setLayout($path)
 	{
-
+		$this->_layout = $path;
 	}
 }
