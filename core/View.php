@@ -2,7 +2,7 @@
 
 class View
 {
-	protected $_head, $_body, $_siteTitle, $_outBuffer, $_layout = DEFAULT_LAYOUT;
+	protected $_head, $_body, $_siteTitle = SITE_TITLE, $_outBuffer, $_layout = DEFAULT_LAYOUT;
 
 	public function __construct()
 	{
@@ -45,7 +45,7 @@ class View
 
 	public function siteTitle()
 	{
-		
+
 	}
 
 	public function setSiteTitle($title)
