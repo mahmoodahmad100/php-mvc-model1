@@ -41,7 +41,14 @@ class View
 
 	public function end()
 	{
-
+		if($this->_outBuffer == 'head'){
+			$this->_head = ob_get_clean();	
+		}
+		elseif($this->_outBuffer == 'body'){
+			$this->_body = ob_get_clean();
+		}
+		else
+			die('use the start method first');
 	}
 
 	public function siteTitle()
