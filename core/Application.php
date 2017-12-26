@@ -28,7 +28,7 @@ class Application
 	{
 		if(ini_get('register_globals')){
 			$globalsArr = ['_SESSION', '_COOKIE', '_POST', '_GET', '_REQUEST', '_SERVER', '_FILES', '_ENV'];
-			foreach($globalsArr $global)
+			foreach($globalsArr as $global)
 			{
 				foreach($GLOBALS[$global] as $k => $v)
 				{
