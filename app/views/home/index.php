@@ -7,3 +7,5 @@
 <?php $this->start('body'); ?>
 
 <?php $this->end(); ?>
+
+<h3>this is the home/index view</h3>
