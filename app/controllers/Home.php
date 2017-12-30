@@ -9,6 +9,6 @@ class Home extends Controller
 
 	public function indexAction()
 	{
-		die("this is the home/indexAction()");
+		$this->view->render('home/index');
 	}
 }
