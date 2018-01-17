@@ -1,7 +1,7 @@
 <?php 
 
 // system
-define('PROOT', '/mvc//');
+define('PROOT', '/php-mvc-model1//');
 define('DEBUG', true);
 
 // core
