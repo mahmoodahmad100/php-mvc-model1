@@ -7,9 +7,8 @@ class Home extends Controller
 		parent::__construct($contorller, $action);
 	}
 
-	public function indexAction($id)
+	public function indexAction()
 	{
-		echo $id;
 		$this->view->render('home/index');
 	}
 }
